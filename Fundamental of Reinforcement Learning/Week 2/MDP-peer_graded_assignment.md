@@ -1,0 +1,8 @@
+1. Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+Let's think of a Mario in a grid world, where each grid's cell in either fire, empty or a princess. The states are defined as grid cell which could be fire, nothing or princess. Mario must take action like move up, move down, move left, move right to reach the goal state i.e reach the cell with the princess. The rewards are -5 for reaching the fire and the episode ends, while it is 0 for empty cell and +10 for reaching the princess and again here the episode ends.
+
+2. Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other. Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+Pong game could be an example of MDP. Here the state is the position of pong ball and position of agent's board. Actions could be moving left or right. And rewards are +2 for successful bouncing of the ball from the board which it is -10 for missing the ball and here the episode ends. 
+
+3. Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+Another example of MDP is investing in a stock. Here the state is the amount of money the agent has. The reward is money received or negative money lost after investing. The actions could be the amount of money agent want to spend which should be less the amount of money the agent has. It could be formulated as a continuous task or episodic which ends after reaching a certain amount of money or completely losing.
